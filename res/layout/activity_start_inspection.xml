@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/home_header"
+        android:layout_alignParentTop="true"
+        layout="@layout/common_header" />
+
+    <LinearLayout
+        android:id="@+id/list_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/orange" >
+
+        <Button
+            android:id="@+id/cancel_inspection_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector_im_menu_icon_signin"
+            android:onClick="@string/inspectionbutton"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="@string/cancel"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/status_text_size"
+            android:textStyle="bold" >
+        </Button>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/submit_inspection_btn"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector_im_menu_icon_signin"
+            android:onClick="@string/inspectionbutton"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/status_text_size"
+            android:textStyle="bold" >
+        </Button>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray" />
+
+        <!--
+        <Button
+            android:id="@+id/edit_inspection_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/reorder_btn"
+            android:onClick="@string/inspectionbutton"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="Add Location"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/status_text_size"
+            android:textStyle="bold" >
+        </Button>
+        -->
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/start_inspection_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/list_bottom"
+        android:layout_below="@id/home_header"
+        android:cacheColorHint="#00000000"
+        android:descendantFocusability="beforeDescendants" />
+
+</RelativeLayout>

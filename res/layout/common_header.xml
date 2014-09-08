@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_header"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/common_top_header"
+    android:background="@drawable/reorder_btn" >
+
+    <Button
+        android:id="@+id/home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_selector_im_menu_icon_home"
+        android:onClick="buttonClick"
+        android:padding="20dp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/top_header_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@id/home_btn"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:singleLine="true"
+        android:text="@string/home"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/top_header_text_size"
+        android:textStyle="bold" />
+
+</RelativeLayout>

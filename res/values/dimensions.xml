@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="home_icon_width">85dp</dimen>
+    <dimen name="home_icon_height">66dp</dimen>
+    <dimen name="home_column_size">90dp</dimen>
+    <dimen name="home_horizontal_spacing">10dp</dimen>
+    <dimen name="home_vertical_spacing">25dp</dimen>
+    <dimen name="start_sync_padding">50dp</dimen>
+    <dimen name="start_sync_title_size">24sp</dimen>
+    <dimen name="start_sync_text_size">16sp</dimen>
+    <dimen name="start_sync_btn_width">80dp</dimen>
+    <dimen name="start_sync_btn_height">28dp</dimen>
+    <dimen name="restart_sync_btn_width">50dp</dimen>
+    <dimen name="restart_sync_btn_height">30dp</dimen>
+    <dimen name="restart_sync_btn_text_size">12sp</dimen>
+    <dimen name="gallery_photo_width">140dp</dimen>
+    <dimen name="gallery_photo_height">180dp</dimen>
+    <dimen name="cell_width">40dip</dimen>
+    <dimen name="cell_height">50dip</dimen>
+    <dimen name="login_email_width">100dp</dimen>
+    <dimen name="property_section_number_width">40dp</dimen>
+    <dimen name="property_section_number_height">30dp</dimen>
+    <dimen name="property_list_view_height">120dp</dimen>
+    <dimen name="property_item_height">60dp</dimen>
+    <dimen name="edit_property_btn_size">30dp</dimen>
+    <dimen name="map_comment_width">240dp</dimen>
+    <dimen name="map_comment_height">100dp</dimen>
+    <dimen name="item_gallery_height">180dp</dimen>
+    <dimen name="item_gallery_photo_width">240dp</dimen>
+    <dimen name="item_gallery_photo_height">180dp</dimen>
+    <dimen name="photo_viewer_header_height">40dp</dimen>
+    <dimen name="photo_viewer_image_height">300dp</dimen>
+    <dimen name="photo_viewer_delete_button_height">50dp</dimen>
+    <dimen name="photo_viewer_sliding_drawer_height">358dp</dimen>
+    <dimen name="photo_viewer_sliding_drawer_handler_height">48dip</dimen>
+    <dimen name="photo_viewer_delete_zone_height">49dip</dimen>
+
+    <!-- setting dimensions here -->
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="history_top_bar_size">24dp</dimen>
+    <dimen name="status_text_size">16sp</dimen>
+    <dimen name="top_header_text_size">23sp</dimen>
+    <dimen name="address_text_size">18sp</dimen>
+    <dimen name="reorder_text_size">18sp</dimen>
+    <dimen name="start_inspection_postcode_textsize">14sp</dimen>
+    <dimen name="start_inspection_date_textsize">12sp</dimen>
+    <dimen name="date_button_height">55dp</dimen>
+    <dimen name="common_top_header">55dp</dimen>
+    <dimen name="forget_margin_left">50dp</dimen>
+    <dimen name="forget_margin_right">50dp</dimen>
+    <dimen name="height_booking_list_top_btn">35dp</dimen>
+    <dimen name="height_booking_list_reorder_btn">35dp</dimen>
+    <dimen name="email_edit_margin_left">20dp</dimen>
+    <dimen name="email_edit_margin_right">20dp</dimen>
+    <dimen name="height_start_inspection_header_linearLayout3">40dp</dimen>
+    <dimen name="height_start_inspection_header_linearLayout4">40dp</dimen>
+    <dimen name="height_submit_btn">50dp</dimen>
+    <dimen name="height_sync_btn">40dp</dimen>
+    <dimen name="height_history_item">40dp</dimen>
+      <dimen name="width_edit_screen_btn">60dp</dimen>
+    <dimen name="height_edit_screen_btn">40dp</dimen>
+
+</resources>

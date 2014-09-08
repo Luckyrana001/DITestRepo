@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/common_header" >
+        </include>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/month_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/pre_month_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/im_calendar_arrow_left" />
+
+        <Button
+            android:id="@+id/next_month_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/im_calendar_arrow_right" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/next_month_btn"
+            android:layout_toRightOf="@id/pre_month_btn"
+            android:gravity="center"
+            android:text="Month Year"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progress_circular"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dip"
+            android:max="10000"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/day_names"
+        android:layout_width="fill_parent"
+        android:layout_height="23dip"
+        android:background="@color/orange"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/day0"
+            style="@style/MonthView_DayLabel" />
+
+        <TextView
+            android:id="@+id/day1"
+            style="@style/MonthView_DayLabel" />
+
+        <TextView
+            android:id="@+id/day2"
+            style="@style/MonthView_DayLabel" />
+
+        <TextView
+            android:id="@+id/day3"
+            style="@style/MonthView_DayLabel" />
+
+        <TextView
+            android:id="@+id/day4"
+            style="@style/MonthView_DayLabel" />
+
+        <TextView
+            android:id="@+id/day5"
+            style="@style/MonthView_DayLabel" />
+
+        <TextView
+            android:id="@+id/day6"
+            style="@style/MonthView_DayLabel" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/seperator" />
+
+    <FrameLayout
+        android:id="@+id/month_body"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <ViewSwitcher
+            android:id="@+id/switcher"
+            android:layout_width="fill_parent"
+            android:background="@drawable/list_bg"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/seperator_list" />
+
+    <ListView
+        android:id="@+id/inspection_list"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/property_list_view_height"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/list_bg"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:id="@+id/calendar_btn_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/today_view_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/im_calendar_statusbutton_1_on"
+            android:text="Today"
+            android:textColor="#09C2F3" >
+        </Button>
+
+        <Button
+            android:id="@+id/list_view_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/im_calendar_statusbutton_1_off"
+            android:text="List"
+            android:textColor="#FFFFFF" >
+        </Button>
+
+        <Button
+            android:id="@+id/month_view_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/im_calendar_statusbutton_1_off"
+            android:text="Month"
+            android:textColor="#FFFFFF" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

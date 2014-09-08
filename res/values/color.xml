@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="orange">#F47920</color>
+    <color name="yellow">#F3A232</color>
+    <color name="blue">#666666</color>
+      <color name="browncolor">#DA4800</color>
+    
+    
+    <color name="month_day_number">#ffffffff</color>
+    <color name="month_today_number">#ffffffff</color>
+    <color name="month_other_month">#ff04465b</color>
+    <!-- <color name="month_other_month_day_number">#ff044355</color> -->
+
+    <color name="month_other_month_day_number">#F3A232</color>
+    <color name="month_other_month_banner">#80595959</color>
+    <color name="month_week_banner">#20595959</color>
+    <color name="panel_text_foreground">#ffffffff</color>
+
+</resources>

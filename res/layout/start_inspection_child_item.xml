@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/report_section_divider_0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/seperator_list" />
+
+    <RelativeLayout
+        android:id="@+id/report_item_item_detail_summary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" >
+
+        <Button
+            android:id="@+id/report_item_item_camera_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/im_select_icon_camera_small_new" />
+
+        <TextView
+            android:id="@+id/report_item_photo_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/report_item_item_camera_btn"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/start_inspection_date_textsize"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/report_item_photo_number" >
+
+            <TextView
+                android:id="@+id/detector_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:singleLine="true"
+                android:text="@string/detector_type"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/status_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/detector_type_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detector_text"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/spiner"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:paddingLeft="10dp"
+                android:text="@string/detachable"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/status_text_size"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:singleLine="true"
+        android:text="@string/manufacturer"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/status_text_size"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/manufacture_edit_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/text_field"
+        android:hint="@string/manufacturer"
+        android:imeOptions="actionDone|actionNext"
+        android:inputType="number|date"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/status_text_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:singleLine="true"
+                android:text="@string/expiry_year"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/status_text_size"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/expiry_edit_txt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/text_field"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/expiry_year"
+                android:imeOptions="actionDone|actionNext"
+                android:inputType="number|date"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/status_text_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:singleLine="true"
+                android:text="@string/new_expiry_year"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/status_text_size"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/new_expiry_year_edit_txt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_field"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/new_expiry_year"
+                android:imeOptions="actionDone|actionNext"
+                android:inputType="number|date"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/status_text_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/icon_battery_replace" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/battery_replaced"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/status_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/battery_replaced"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/im_select_check_inactive" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/icon_clean" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/cleaned"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/status_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cleaned"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/im_select_check_inactive" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/icon_stricker" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/sticked_applied"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/status_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stricked_applied"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/im_select_check_inactive" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/icon_test" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/decibel_test"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/status_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/decibel_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/im_select_check_inactive" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/icon_not_required" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/not_required"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/status_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/not_required"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/im_select_check_inactive" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/icon_electrical" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/_240volt_problem"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/status_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/volt_problem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/im_select_check_inactive" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/electrical_note_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:singleLine="true"
+        android:text="@string/electrical_notes"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/status_text_size"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/electrical_notes_edit_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="137dp"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/text_field"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/electrical_notes"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/status_text_size" />
+
+    <TextView
+        android:id="@+id/problem_note_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/text_field"
+        android:singleLine="true"
+        android:text="@string/problem_notes"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/problem_notes_edit_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="137dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/problem_notes"
+        android:imeOptions="actionDone|actionNext"
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/black"
+        android:visibility="gone" />
+
+    <Gallery
+        android:id="@+id/report_item_item_detail_photo_gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/item_gallery_height"
+        android:gravity="center"
+        android:spacing="20dp"
+        android:visibility="gone" />
+
+</LinearLayout>

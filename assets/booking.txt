@@ -1,0 +1,41 @@
+{
+    "message" : "successful" ,
+    "status" : 1,
+    "technicianId":"12345",
+    "date":"",
+    "time":"",
+     "propertyInfo":[
+                    {
+                       "propertyInfoId":"",
+                       "propertyNumber":"",
+                       "hasSendNotification":"",
+                       "hasLargeLadder":"",
+                       "keyNumber":"",
+                       "unitShopNumber":"",
+                       "streetNumber":"",
+                       "streetName":"",
+                       "suburb":"",
+                       "stateId":"",
+                       "postCode":"",
+                       "zone":{
+                                "zoneId":"",
+                                "name":""
+                                },
+                      "occupantName":"",
+                      "occupantEmail":"",
+                      "postalAddress":"",
+                      "postalSuburb":"",
+                      "postalPostCode":"",
+                      "postalStateId":"",
+                      "postalCountry":"",
+                      "notes":"",
+                      "proprtyHoldDate":"",
+                    
+                      "inspectionStatus":{
+                            "inspectionStatusId":"",
+                            "name":""
+                       }
+             }
+      ]   
+ }
+ 

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/seperator_list" />
+
+    <LinearLayout
+        android:id="@+id/left_card_linear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/card" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/left_card"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/status_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/left_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/im_select_check_inactive" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/signature_linear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/icon_signature" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/signature"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/status_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/signature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/im_select_check_inactive" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/service_note_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:text="@string/service_notes"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/status_text_size"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/services_note_edit_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="137dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/service_notes"
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/status_text_size" />
+
+    <TextView
+        android:id="@+id/problem_note_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:text="@string/problem_notes"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/status_text_size"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/problem_notes_edit_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="137dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/problem_notes"
+        android:imeOptions="actionDone|actionNext"
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/status_text_size" />
+
+</LinearLayout>

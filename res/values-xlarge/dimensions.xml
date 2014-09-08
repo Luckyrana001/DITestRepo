@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="home_icon_width">190dp</dimen>
+    <dimen name="home_icon_height">151dp</dimen>
+    <dimen name="home_column_size">200dp</dimen>
+    <dimen name="home_horizontal_spacing">50dp</dimen>
+    <dimen name="home_vertical_spacing">200dp</dimen>
+    <dimen name="property_list_view_height">300dp</dimen>
+    <dimen name="start_sync_padding">150dp</dimen>
+    <dimen name="start_sync_title_size">40sp</dimen>
+    <dimen name="start_sync_text_size">32sp</dimen>
+    <dimen name="start_sync_btn_width">160dp</dimen>
+    <dimen name="start_sync_btn_height">56dp</dimen>
+    <dimen name="restart_sync_btn_width">100dp</dimen>
+    <dimen name="restart_sync_btn_height">60dp</dimen>
+    <dimen name="restart_sync_btn_text_size">24sp</dimen>
+
+    <!-- setting dimensions here -->
+    <dimen name="text_size">30sp</dimen>
+    <dimen name="address_text_size">25sp</dimen>
+    <dimen name="reorder_text_size">22sp</dimen>
+    <dimen name="status_text_size">25sp</dimen>
+    <dimen name="top_header_text_size">30sp</dimen>
+    <dimen name="start_inspection_postcode_textsize">18sp</dimen>
+    <dimen name="start_inspection_date_textsize">24sp</dimen>
+    <dimen name="date_button_height">55dp</dimen>
+    <dimen name="common_top_header">75dp</dimen>
+    <dimen name="forget_margin_left">200dp</dimen>
+    <dimen name="forget_margin_right">200dp</dimen>
+    <dimen name="height_booking_list_top_btn">50dp</dimen>
+    <dimen name="height_booking_list_reorder_btn">55dp</dimen>
+    <dimen name="email_edit_margin_left">100dp</dimen>
+    <dimen name="email_edit_margin_right">100dp</dimen>
+    <dimen name="height_start_inspection_header_linearLayout3">60dp</dimen>
+    <dimen name="height_start_inspection_header_linearLayout4">60dp</dimen>
+    <dimen name="height_submit_btn">70dp</dimen>
+    <dimen name="height_sync_btn">80dp</dimen>
+    <dimen name="height_history_item">60dp</dimen>
+    <dimen name="width_edit_screen_btn">100dp</dimen>
+    <dimen name="height_edit_screen_btn">60dp</dimen>
+
+</resources>

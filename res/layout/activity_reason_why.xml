@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|center_vertical"
+    android:background="@drawable/text_box" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/common_header" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/key_not_working_txt_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:text="@string/key_didn_t_work"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/status_text_size" />
+
+            <ImageView
+                android:id="@+id/key_not_working"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/radio_sel"
+                android:gravity="center"
+                android:textSize="@dimen/text_size" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/orange_sep" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/no_key_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:text="@string/no_key_or_problem"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/status_text_size" />
+
+            <ImageView
+                android:id="@+id/no_key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/radio_desel"
+                android:gravity="center"
+                android:textSize="@dimen/text_size" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/orange_sep" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/tenant_home_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:text="@string/tenant_not_home"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/status_text_size" />
+
+            <ImageView
+                android:id="@+id/tenant_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/radio_desel"
+                android:gravity="center"
+                android:textSize="@dimen/text_size" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/seperator" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/out_of_time_txt_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:text="@string/ran_out_of_time"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/status_text_size" />
+
+            <ImageView
+                android:id="@+id/out_of_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/radio_desel"
+                android:gravity="center"
+                android:textSize="@dimen/text_size" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/orange_sep" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/note_txt_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:text="@string/write_note"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/status_text_size" />
+
+            <ImageView
+                android:id="@+id/note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/radio_desel"
+                android:gravity="center"
+                android:textSize="@dimen/text_size" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/orange_sep" />
+
+        <EditText
+            android:id="@+id/note_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="@string/write_note"
+            android:imeOptions="actionDone|actionNext"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size" >
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/height_submit_btn"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector_submit_pop"
+                android:padding="10dp"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:text="@string/submit"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size" />
+
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/height_submit_btn"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector_booking_top_btn"
+                android:padding="10dp"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:text="@string/cancel"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

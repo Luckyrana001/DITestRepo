@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/home_header"
+        android:layout_alignParentTop="true"
+        layout="@layout/common_header" />
+
+    <View
+        android:id="@+id/view_one"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/home_header"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/booking_date_picker"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/height_booking_list_top_btn"
+        android:layout_below="@id/view_one"
+        android:background="@drawable/button_selector_booking_top_btn"
+        android:onClick="buttonClick"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/reorder_text_size"
+        android:textStyle="bold" >
+    </Button>
+
+    <Button
+        android:id="@+id/booking_reorder_list"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/height_booking_list_reorder_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_selector_booking_top_btn"
+        android:onClick="buttonClick"
+        android:padding="10dp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="@string/reorder_list"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/reorder_text_size"
+        android:textStyle="bold" >
+    </Button>
+
+         <com.detector.inspector.lib.widget.PullToRefreshListView
+        android:id="@+id/inspection_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/booking_reorder_list"
+        android:layout_below="@id/booking_date_picker"
+        android:background="@drawable/list_bg"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="singleChoice"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:scrollbars="none" />
+   
+
+   <!--  <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/inspection_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/booking_reorder_list"
+        android:layout_below="@id/booking_date_picker"
+        android:background="@drawable/list_bg"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="singleChoice"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true" /> -->
+
+</RelativeLayout>

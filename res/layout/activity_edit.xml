@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <include
+        android:id="@+id/home_header"
+        android:layout_alignParentTop="true"
+        layout="@layout/common_header" />
+    
+<!-- /**android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"*/ -->
+    <EditText
+        android:id="@+id/add_area_edit_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_header"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890"
+        android:hint="@string/add_location"
+        android:imeOptions="actionDone"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/list_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/orange" >
+
+        <Button
+            android:id="@+id/cancel_edit_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector_im_menu_icon_signin"
+            android:onClick="buttonClick"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="@string/cancel"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/reorder_text_size"
+            android:textStyle="bold" >
+        </Button>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/done_edit_btn"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector_im_menu_icon_signin"
+            android:onClick="buttonClick"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="@string/done"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/reorder_text_size"
+            android:textStyle="bold" >
+        </Button>
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/start_inspection_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/list_bottom"
+        android:layout_below="@id/add_area_edit_txt"
+        android:background="@drawable/list_bg"
+        android:cacheColorHint="#00000000" />
+
+</RelativeLayout>

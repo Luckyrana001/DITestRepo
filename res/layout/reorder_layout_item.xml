@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/seperator_list" />
+
+    <RelativeLayout
+        android:id="@+id/booking_top_relative_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+         >
+
+        <TextView
+            android:id="@+id/arrow_mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/reorder_icon"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/booking_item_relative"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/arrow_mark" >
+
+            <TextView
+                android:id="@+id/section_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:text="smartData"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/appointment_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/section_name"
+                android:text="Key/Time"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/status_text_size" />
+
+            <TextView
+                android:id="@+id/large_ladder"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/appointment_time"
+                android:text="Large Ladder"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/status_text_size" />
+
+            <TextView
+                android:id="@+id/inspection_note"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/large_ladder"
+                android:text="Note"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/status_text_size" />
+        </RelativeLayout>
+      
+    </RelativeLayout>
+
+</RelativeLayout>

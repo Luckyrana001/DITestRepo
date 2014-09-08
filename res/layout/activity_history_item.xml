@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/property_cell_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".home.DetectorInspector_History" >
+
+    <LinearLayout
+        android:id="@+id/inspection_date_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/height_history_item"
+        android:background="@drawable/reorder_btn" >
+
+        <TextView
+            android:id="@+id/inspection_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/inspection_cancel_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:background="@drawable/button_selector_save_btn"
+            android:gravity="right"
+            android:layout_margin="5dp"
+            android:padding="4dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="@string/cancel"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/inspection_address"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+      
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/address_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/inspection_da"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/status_text_size" />
+
+        <TextView
+            android:id="@+id/inspection_stutus"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/status_text_size" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/seperator_list" />
+
+</LinearLayout>

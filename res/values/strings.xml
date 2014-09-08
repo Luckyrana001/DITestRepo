@@ -1,0 +1,107 @@
+<resources>
+
+    <string name="app_name">Detector Inspector</string>
+    
+     <!-- Home Icon String -->
+	<string name="ic_insp_list_desp">History</string>
+	<string name="ic_calendar_desp">Bookings</string>
+	<string name="ic_map_desp">Map</string>
+	<string name="ic_report_desp">Reports</string>
+	<string name="ic_sync_desp">Sync</string>
+	<string name="ic_how_works_desp">How it works</string>
+	<string name="ic_feedback_desp">Contact Us</string>
+	<string name="ic_settings_desp">End day</string>
+	<string name="cancel">Cancel</string>
+	<string name="location_name">Location Name</string>
+	<string name="edit">Edit</string>
+	<string name="delete">Delete</string>
+	<string name="save">Save</string>
+	<string name="phone_no">Phone No</string>
+	<string name="_1300_134_563">" 1300 134 563"</string>
+	<string name="fax">Fax</string>
+	<string name="_0395328894">" : 0395328894"</string>
+	<string name="helpdesk_feedback">Helpdesk Feedback</string>
+	<string name="contact_us_via_linkedin">Contact us via Linkedin</string>
+	<string name="contact_us_via_twitter">Contact us via Twitter</string>
+	<string name="phone_no_">Phone No :</string>
+	<string name="technical_support_">Technical Support :</string>
+	<string name="_61_431_723_904">" +61 431 723 904"</string>
+	<string name="_61_431_431_615">" +61 431 431 615"</string>
+	<string name="general_support_">General Support :</string>
+	<string name="_61_488_301_544">" +61 488 301 544"</string>
+	<string name="fax_">Fax :</string>
+	<string name="_03_9523_0672">" 03 9523 0672"</string>
+	<string name="add_location">Add Location</string>
+	<string name="done">Done</string>
+	<string name="sign_out">Sign Out</string>
+	<string name="sync">Sync</string>
+	<string name="home">Home</string>
+	<string name="left_card">Left Card</string>
+	<string name="signature">Signature</string>
+	<string name="service_notes">Service Notes</string>
+	<string name="electrical_notes">Electrical Notes</string>
+	<string name="problem_notes">Problem Notes</string>
+	<string name="detector_type">Detector Type</string>
+	<string name="detachable">Detachable</string>
+	<string name="manufacturer">Manufacturer</string>
+	<string name="expiry_year">Expiry Year</string>
+	<string name="new_expiry_year">New Expiry Year</string>
+	<string name="battery_replaced">Battery replaced</string>
+	<string name="cleaned">Cleaned</string>
+	<string name="sticked_applied">Sticker applied</string>
+	<string name="decibel_test">Decibel test</string>
+	<string name="not_required">Not required</string>
+	<string name="_240volt_problem">240volt Problem</string>
+	
+	<string name="booking_list">Booking List</string>
+	<string name="edit_location">Add Locations</string>
+	<string name="previous_inspe">Previous Inspections</string>
+	<string name="sync_inspection">Sync Inspections</string>
+	<string name="contact_us">Contact us</string>
+	<string name="loginbutton">loginButton</string>
+	<string name="inspectionbutton">inspectionButton</string>
+	
+	
+	
+	
+	
+	<!-- string array -->
+	
+    <string-array
+        name="why_it_array">
+        <item>key didn’t work </item>
+        <item>tenant not home</item>
+        <item>no key or problem </item>
+        <item>write notes</item>
+     </string-array>
+        <string name="key_didn_t_work">Key didnt work</string>
+        <string name="tenant_not_home">Tenant not at appointment</string>
+        <string name="no_key_or_problem">No key</string>
+        <string name="write_note">Other</string>
+        <string name="submit">Submit</string>
+        <string name="why_it_has_not_been_completed_">Why booking has not been completed</string>
+        <string name="ran_out_of_time">Ran out of time</string>
+        <string name="reorder_list">Reorder List</string>
+        <string name="buttonclick">buttonClick</string>
+
+	
+        <string name="deteachable">Detachable</string>
+        <string name="detechable_recharge">Detachable Recharge</string>
+        <string name="mains">Mains</string>
+        <string name="mains_recharge">Main Recharge</string>
+        <string name="security">Security</string>
+        
+        
+        
+        
+        <string name="aproval_code">Enter Approval Code </string>
+        
+        
+        
+        
+        <string name="check_string">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890@-</string>
+        
+        
+	
+	
+</resources>

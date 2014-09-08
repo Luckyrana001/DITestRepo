@@ -1,0 +1,162 @@
+{
+
+    "message":"successful",
+    "status":1,
+    "technicianId":"12345",
+    "propertyInfo":[
+        {
+            "propertyId":"HSBU46",
+            "status":1,
+            "bookingId":"12353",
+            "agency":{
+                "agencyId":"123abc",
+                "agencyName":"Hocking Sturat Bundoora",
+                "telephone":"01724060000"
+            },
+            "propertyManager":{
+                "propertyManagerId":"1234",
+                "propertyManagerName":"Stephanie Haig"
+            },
+            "unitShopNumber":"aaaaaaaaaa111111111",
+            "streetNumber":"38",
+            "streetName":"Mediterranean Way",
+            "suburb":"Epping",
+            "state":"VIC",
+            "postCode":"3076",
+            "keyNumber":"1231",
+            "notes":"Inspect each location of the home",
+            "hasLargeLadder":"No",
+            "hasSendNotification":"N",
+            "inspectionDate":"2013-10-09T14:28:00.0000000+10:00",
+            "occupantName":"Simon Sunderland",
+            "occupantEmail":"sunderland.simon@yahoo.com.au",
+            "postalAddress":"",
+            "postalSuburb":"",
+            "postalState":"",
+            "postalPostCode":"",
+            "postalCountry":"",
+            "previousHistory":[
+                {
+                    "locationName":"test",
+                    "detectorType":2,
+                    "manufacturer":"",
+                    "expiryYear":"",
+                    "newExpiryYear":""
+                },
+                {
+                    "locationName":"test",
+                    "detectorType":2,
+                    "manufacturer":"",
+                    "expiryYear":"",
+                    "newExpiryYear":""
+                },
+                {
+                    "locationName":"test",
+                    "detectorType":2,
+                    "manufacturer":"",
+                    "expiryYear":"",
+                    "newExpiryYear":""
+                }
+            ],
+            "contact":[
+                {
+                    "contactNumber":"0411199974",
+                    "contactType":"mobile"
+                },
+                {
+                    "contactNumber":"96817211",
+                    "contactType":"business"
+                }
+            ]
+        },
+        {
+            "propertyId":"HSBU46",
+            "status":1,
+            "bookingId":"12353",
+            "agency":{
+                "agencyId":"123abc",
+                "agencyName":"Hocking Sturat Bundoora",
+                "telephone":"01724060000"
+            },
+            "propertyManager":{
+                "propertyManagerId":"1234",
+                "propertyManagerName":"Stephanie Haig"
+            },
+            "unitShopNumber":"aaaaaaaaaa111111111",
+            "streetNumber":"38",
+            "streetName":"Mediterranean Way",
+            "suburb":"Epping",
+            "state":"VIC",
+            "postCode":"3076",
+            "keyNumber":"1231",
+            "notes":"Inspect each location of the home",
+            "hasLargeLadder":"No",
+            "hasSendNotification":"N",
+            "inspectionDate":"2013-10-09T14:28:00.0000000+10:00",
+            "occupantName":"Simon Sunderland",
+            "occupantEmail":"sunderland.simon@yahoo.com.au",
+            "postalAddress":"",
+            "postalSuburb":"",
+            "postalState":"",
+            "postalPostCode":"",
+            "postalCountry":"",
+            "previousHistory":{
+            },
+            "contact":[
+                {
+                    "contactNumber":"0411199974",
+                    "contactType":"mobile"
+                },
+                {
+                    "contactNumber":"96817211",
+                    "contactType":"business"
+                }
+            ]
+        },
+        {
+            "propertyId":"HSBU46",
+            "status":1,
+            "bookingId":"12353",
+            "agency":{
+                "agencyId":"123abc",
+                "agencyName":"Hocking Sturat Bundoora",
+                "telephone":"01724060000"
+            },
+            "propertyManager":{
+                "propertyManagerId":"1234",
+                "propertyManagerName":"Stephanie Haig"
+            },
+            "unitShopNumber":"aaaaaaaaaa111111111",
+            "streetNumber":"38",
+            "streetName":"Mediterranean Way",
+            "suburb":"Epping",
+            "state":"VIC",
+            "postCode":"3076",
+            "keyNumber":"1231",
+            "notes":"Inspect each location of the home",
+            "hasLargeLadder":"No",
+            "hasSendNotification":"N",
+            "inspectionDate":"2013-10-09T14:28:00.0000000+10:00",
+            "occupantName":"Simon Sunderland",
+            "occupantEmail":"sunderland.simon@yahoo.com.au",
+            "postalAddress":"",
+            "postalSuburb":"",
+            "postalState":"",
+            "postalPostCode":"",
+            "postalCountry":"",
+            "previousHistory":{
+            },
+            "contact":[
+                {
+                    "contactNumber":"0411199974",
+                    "contactType":"mobile"
+                },
+                {
+                    "contactNumber":"96817211",
+                    "contactType":"business"
+                }
+            ]
+        }
+    ]
+
+}

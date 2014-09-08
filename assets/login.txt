@@ -1,0 +1,14 @@
+{
+  "message" : "successful" ,
+  "status" : 1,
+  "technician":{
+                  "technicianId":"12345",
+                  "company":"smartData",
+                  "telephone":"12345791994",
+                  "mobile":"1452345325",
+                  "address":"smartData Enterprises",
+                  "suburb":"sdjkb",
+                  "postalCode":"160012",
+                  "stateId":"23234"
+                  }	
+}
